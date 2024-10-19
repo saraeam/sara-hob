@@ -3,7 +3,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
+  font-family: 'Afacad Flux';
 }
 
 h1 {
@@ -49,6 +49,7 @@ table {
   margin-top: 100px;
   border-collapse: collapse;
   background-color: rgba(253, 238, 216, 0.7);
+  font-family: 'Afacad Flux';
 }
 
 table,
