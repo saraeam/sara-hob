@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(357deg, rgb(110, 26, 26) 0%, rgb(180, 56, 56) 40%, rgb(157, 80, 80) 100%);
+  background-image: url(img/fundotgcf.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -11,7 +11,7 @@ h1 {
   font-family: "Qwitcher Grypen", cursive;
   font-style: oblique;
   font-weight: 400;
-  font-size: 3em;
+  font-size: 4em;
   color: rgb(160, 48, 48);
 }
 
@@ -28,7 +28,7 @@ body>p {
   text-align: center;
   border: 1px rgb(167, 45, 45) solid;
   padding: 10px;
-  background-color: rgba(0, 0, 0, 0.76);
+  background-color: rgba(0, 0, 0, 0.719);
   color: rgb(204, 200, 200);
 }
 
@@ -48,7 +48,7 @@ table {
   margin-right: auto;
   margin-top: 100px;
   border-collapse: collapse;
-  background-color: rgba(253, 238, 216, 0.7);
+  background-color: rgba(253, 238, 216, 0.76);
   font-family: 'Afacad Flux';
 }
 
@@ -61,7 +61,6 @@ td {
 
 .armas {
   width: 300px;
-
 }
 
 header {
@@ -85,6 +84,7 @@ thead {
 #Personagens {
   padding-top: 1em;
   padding-bottom: 1em;
+  color:#BF1B28;
 }
 
 #Informaçoes {
@@ -92,7 +92,7 @@ thead {
   margin: 2em 4em;
   border: 1px black solid;
   border-radius: 20px;
-  background-color: rgba(0, 0, 0, 0.61);
+  background-color: rgba(0, 0, 0, 0.842);
   color: rgb(194, 198, 201);
 }
 
@@ -113,12 +113,25 @@ thead {
 nav li {
   padding-bottom: 1%;
 }
-section{
+
+section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-h3{
+
+h3 {
   display: flex;
   justify-content: center;
+  color:#F2F2F2;
+  padding-bottom: 2em;
+}
+
+section, #Personagens{
+  background-color: rgba(0, 0, 0, 0.473);
+}
+
+h2::selection{
+  background-color: white;
+  color: #F2DF80;
 }
