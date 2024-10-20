@@ -50,6 +50,8 @@ table {
   border-collapse: collapse;
   background-color: rgba(253, 238, 216, 0.76);
   font-family: 'Afacad Flux';
+  width:55%;
+  overflow-x: auto;
 }
 
 table,
