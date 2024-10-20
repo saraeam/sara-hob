@@ -50,8 +50,7 @@ table {
   border-collapse: collapse;
   background-color: rgba(253, 238, 216, 0.76);
   font-family: 'Afacad Flux';
-  width:55%;
-  overflow-x: auto;
+  width: 55%;
 }
 
 table,
@@ -86,7 +85,7 @@ thead {
 #Personagens {
   padding-top: 1em;
   padding-bottom: 1em;
-  color:#BF1B28;
+  color: #BF1B28;
 }
 
 #Informaçoes {
@@ -125,15 +124,20 @@ section {
 h3 {
   display: flex;
   justify-content: center;
-  color:#F2F2F2;
+  color: #F2F2F2;
   padding-bottom: 2em;
 }
 
-section, #Personagens{
+section,
+#Personagens {
   background-color: rgba(0, 0, 0, 0.473);
 }
 
-h2::selection{
+h2::selection {
   background-color: white;
   color: #F2DF80;
+}
+
+.table {
+  overflow-x: auto;
 }
