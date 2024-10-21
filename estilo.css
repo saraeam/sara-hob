@@ -143,7 +143,7 @@ h2::selection {
   overflow-x: auto;
 }
 
-#sobre{
+#sobre {
   margin: auto;
   margin-top: 2%;
   border: #BF1B28 1px dashed;
@@ -154,22 +154,42 @@ h2::selection {
 }
 
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) {
   #Informaçoes {
     flex-direction: column;
     align-items: center;
   }
-  #Informaçoes:nth-child(2n+1){
-  flex-wrap: wrap;
+
+  #Informaçoes:nth-child(2n+1) {
+    flex-wrap: wrap;
     justify-content: center;
   }
 }
 
-dl{
+dl {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.61);
   border: #F2DF80 1px solid;
   border-radius: 20px;
   width: 20%;
-  margin: auto;
+  margin-left: 15%;
+  display: inline-block;
+
+}
+
+iframe {
+  float: right;
+  margin-bottom: 5%;
+  margin-right: 3em;
+}
+
+@media screen and (max-width: 650px) {
+  iframe {
+    width: 70%;
+    margin-top: 2em;
+  }
+
+  dl {
+    width: 80%;
+  }
 }
