@@ -87,6 +87,7 @@ thead {
   padding-top: 1em;
   padding-bottom: 1em;
   color: #BF1B28;
+  background-color: rgba(0, 0, 0, 0.562);
 }
 
 #Informaçoes {
@@ -129,9 +130,8 @@ h3 {
   padding-bottom: 2em;
 }
 
-section,
-#Personagens {
-  background-color: rgba(0, 0, 0, 0.473);
+section {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.562) 90%, rgba(0, 0, 0, 0));
 }
 
 h2::selection {
@@ -174,7 +174,6 @@ dl {
   width: 20%;
   margin-left: 15%;
   display: inline-block;
-
 }
 
 iframe {
@@ -192,4 +191,10 @@ iframe {
   dl {
     width: 80%;
   }
+}
+
+li a{
+  color: #BF1B28;
+  font-family: 'Afacad Flux';
+  font-weight: 800;
 }
